@@ -1,7 +1,7 @@
 /* Body CSS, Applied to whole page */
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: roboto;
   background-color: #f7f4f0;
   height: 100%;
 }
@@ -17,11 +17,15 @@ header {
   z-index: 100;
 }
 
+/* image css in section */
+
 section>img {
   float: left;
   margin-top: 100px;
   margin-left: 100px;
 }
+
+/* form elements styling */
 
 tr>td {
   padding-bottom: 10px;
@@ -29,12 +33,14 @@ tr>td {
   margin: 5px;
 }
 
+/* band styling */
+
 .band {
   height: 20px;
   margin-top: 150px;
 }
 
-/* Navigation bas css */
+/* Navigation bar css */
 
 .nav_bar {
   clear: both;
@@ -54,7 +60,7 @@ tr>td {
 h1 {
   text-align: center;
   margin-top: 20px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: roboto;
   font-size: 35px;
 }
 
@@ -112,7 +118,7 @@ a {
 
 .details {
   text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:roboto;
   font-style: italic;
   padding-left: 5px;
   margin: auto;
@@ -233,11 +239,11 @@ a:visited {
   font-size: 5px;
 }
 
-/* search bar css for order page */
+/* form css for order page */
 
 .order {
   text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: roboto;
   font-size: 20px;
   margin: 100px 175px;
   top: 20px;
