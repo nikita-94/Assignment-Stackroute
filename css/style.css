@@ -1,5 +1,9 @@
 /* Body CSS, Applied to whole page */
 
+a:visited {
+  color: #ffffff;
+}
+
 body {
   font-family: roboto;
   background-color: #f7f4f0;
@@ -84,7 +88,7 @@ header>img {
 ul>li {
   display: inline;
   text-decoration: none;
-  color: #2d2d68;
+  color: #ffffff;
   font-size: 1em;
   font-style: bold;
   flex-direction: row;
