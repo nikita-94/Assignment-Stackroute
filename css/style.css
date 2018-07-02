@@ -1,0 +1,300 @@
+/* Body CSS, Applied to whole page */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(247, 244, 240);
+  height: 100%;
+}
+
+/* Header CSS */
+
+header {
+  background: linear-gradient(-90deg, rgb(247, 244, 240), #fa72b1);
+  height: 170px;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+}
+
+.band {
+  height: 20px;
+}
+
+/* Navigation bas css */
+
+.nav_bar {
+  clear: both;
+  margin: 20px 250px;
+}
+
+/* Banner css */
+
+.banner {
+  height: 300px;
+  width: 100%;
+  left: 0;
+}
+
+/* Overwriting H1 properties */
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 35px;
+}
+
+/* Welcome msg for users */
+
+#welcomemsg {
+  text-align: center;
+  color: rgb(45, 45, 104);
+}
+
+/* Specific Css for image */
+
+header>img {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+/* List items css */
+
+ul>li {
+  display: inline;
+  text-decoration: none;
+  color: rgb(45, 45, 104);
+  font-size: 1em;
+  font-style: bold;
+  flex-direction: row;
+  left: 0;
+  padding: 5px 30px 5px 30px;
+}
+
+/* anchor tag css */
+
+a {
+  text-decoration: none;
+}
+
+/* css for images */
+
+.img {
+  height: 200px;
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  position: relative;
+}
+
+/* give hover properties to images */
+
+.img:hover {
+  opacity: 0.5;
+}
+
+/* giving details to the products */
+
+.details {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  padding-left: 5px;
+  margin: auto;
+}
+
+/* Footer css */
+
+footer {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 0;
+  position: fixed;
+  background: linear-gradient(-90deg, rgb(247, 244, 240), #fa72b1);
+  left: 0;
+  bottom: 0;
+  height: 50px;
+}
+
+/* List items */
+
+.list {
+  margin: auto;
+  padding: 10px;
+}
+
+/* hover properties to anchor tags */
+
+a:hover {
+  color: black;
+}
+
+/* hero-unit css */
+
+.hero-text {
+  text-align: center;
+  background: url("../images/ba.jpg") no-repeat;
+  background-size: cover;
+  height: 400px;
+  color: black;
+  position: relative;
+}
+
+/* heading for hero unit */
+
+.hero-text h1 {
+  position: absolute;
+  top: 100px;
+  left: 650px;
+}
+
+/* para css for hero unit */
+
+.hero-text p {
+  position: absolute;
+  top: 200px;
+  left: 650px;
+  padding-right: 50px;
+}
+
+/* visited anchor tag css */
+
+a:visited {
+  color: blue;
+}
+
+.sect {
+  clear: both;
+  margin: 50px 250px;
+}
+
+
+
+/* listed items css */
+
+.main {
+  list-style: none;
+  float: left;
+  padding: 20px;
+  width: 100px;
+}
+
+.main a {
+  text-decoration: none;
+  font-size: 20px;
+}
+.l1 {
+  background-color: #f8bfb9;
+  height: 30px;
+  font-size: 5px;
+}
+
+.l2 {
+  background-color: #ffd0d2;
+  height: 30px;
+  font-size: 5px;
+}
+
+.l3 {
+  background-color: #fff1d0;
+  height: 30px;
+  font-size: 5px;
+}
+
+.l4 {
+  background-color: #f9f2e2;
+  height: 30px;
+  font-size: 5px;
+}
+
+.l5 {
+  background-color: #fdfaf2;
+  height: 30px;
+  font-size: 5px;
+}
+
+/* search bar css for order page */
+
+.search {
+  margin: 30px 100px;
+  display: inline;
+}
+
+/* testimony and featured story css */
+
+.f_stry {
+  height: 350px;
+  width: 100%;
+}
+
+.signature {
+  font-family: cursive;
+  font-weight: bold;
+  padding: 5px;
+  color: saddlebrown;
+  margin: 5px 10px 5px 20px;
+  width: 100%;
+  display: block;
+}
+
+h4 {
+  color: saddlebrown;
+  font-weight: bold;
+  font-size: 40px;
+  padding: 10px;
+}
+
+.featured_story {
+  font-family: cursive;
+  color: saddlebrown;
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.testimony {
+  margin-bottom: 100px;
+}
+
+/*hovering menu items*/
+
+.main:hover {
+  text-shadow: 1px 1px 2px green;
+}
+
+.main a:hover {
+  color: white;
+}
+
+/*styling dropdown list*/
+
+.sub {
+  display: none;
+  padding-top:25px;
+  width: auto;
+  margin-left:-20px;
+  font-size: 2px;
+}
+
+.sub li {
+  list-style: none;
+  font-size: 5px;
+  padding: 10px;
+}
+
+.sub li a {
+  text-decoration: none;
+}
+
+.main:hover .sub {
+  display: block;
+}
+
+/* styling each group of sublist*/
+
+.slist1 .slist2 .slist3 .slist4 {
+  background-color: #ffb3fb;
+  font-size: 5px;
+}
