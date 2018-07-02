@@ -2,14 +2,14 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(247, 244, 240);
+  background-color: #f7f4f0;
   height: 100%;
 }
 
 /* Header CSS */
 
 header {
-  background: linear-gradient(-90deg, rgb(247, 244, 240), #fa72b1);
+  background: linear-gradient(-90deg, #f7f4f0, #fa72b1);
   height: 170px;
   position: fixed;
   width: 100%;
@@ -62,7 +62,7 @@ h1 {
 
 .welcomemsg {
   text-align: center;
-  color: rgb(45, 45, 104);
+  color: #2d2d68;
 }
 
 /* Specific Css for image */
@@ -78,7 +78,7 @@ header>img {
 ul>li {
   display: inline;
   text-decoration: none;
-  color: rgb(45, 45, 104);
+  color: #2d2d68;
   font-size: 1em;
   font-style: bold;
   flex-direction: row;
@@ -125,7 +125,7 @@ footer {
   width: 100%;
   margin-bottom: 0;
   position: fixed;
-  background: linear-gradient(-90deg, rgb(247, 244, 240), #fa72b1);
+  background: linear-gradient(-90deg, #f7f4f0, #fa72b1);
   left: 0;
   bottom: 0;
   height: 50px;
@@ -145,7 +145,7 @@ footer {
 /* hover properties to anchor tags */
 
 a:hover {
-  color: black;
+  color: #000000;
 }
 
 /* hero-unit css */
@@ -155,7 +155,7 @@ a:hover {
   background: url("../images/ba.jpg") no-repeat;
   background-size: cover;
   height: 400px;
-  color: black;
+  color: #000000;
   position: relative;
 }
 
@@ -165,7 +165,7 @@ a:hover {
   position: absolute;
   top: 100px;
   left: 650px;
-  color: lavender;
+  color: #e6e6fa;
 }
 
 /* para css for hero unit */
@@ -175,13 +175,13 @@ a:hover {
   top: 200px;
   left: 650px;
   padding-right: 50px;
-  color: lavender;
+  color: #e6e6fa;
 }
 
 /* visited anchor tag css */
 
 a:visited {
-  color: blue;
+  color: #0000ff;
 }
 
 .sect {
@@ -267,18 +267,18 @@ table>tr>td {
   font-family: cursive;
   font-weight: bold;
   padding: 5px;
-  color: saddlebrown;
+  color: #8b4513;
   margin: 5px 10px 5px 20px;
   width: 100%;
   display: block;
 }
 
 .signature>a {
-  color: saddlebrown;
+  color: #8b4513;
 }
 
 h4 {
-  color: saddlebrown;
+  color: #8b4513;
   font-weight: bold;
   font-size: 40px;
   padding: 10px;
@@ -286,7 +286,7 @@ h4 {
 
 .featured_story {
   font-family: cursive;
-  color: saddlebrown;
+  color: #8b4513;
   width: 100%;
   margin: 10px;
   padding: 10px;
@@ -299,11 +299,11 @@ h4 {
 /*hovering menu items*/
 
 .main:hover {
-  text-shadow: 1px 1px 2px green;
+  text-shadow: 1px 1px 2px #008000;
 }
 
 .main a:hover {
-  color: white;
+  color: #ffffff;
 }
 
 /*styling dropdown list*/
