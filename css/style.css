@@ -1,78 +1,28 @@
-/* Body CSS, Applied to whole page */
-
-a:visited {
-  color: #ffffff;
-}
-
 body {
-  font-family: roboto;
-  background-color: #f7f4f0;
-  height: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+  color: #8b4513;
 }
 
 /* Header CSS */
 
 header {
-  background: linear-gradient(-90deg, #ffffff, #696969);
-  height: 170px;
+  height: 100px;
   position: fixed;
   width: 100%;
   top: 0;
-  z-index: 100;
-}
-
-/* image css in section */
-
-section>img {
-  float: left;
-  margin-top: 100px;
-  margin-left: 100px;
-}
-
-/* form elements styling */
-
-tr>td {
-  padding-bottom: 10px;
-  padding-left: 5px;
-  margin: 5px;
-}
-
-/* band styling */
-
-.band {
-  height: 20px;
-  margin-top: 150px;
-}
-
-/* Navigation bar css */
-
-.nav_bar {
-  clear: both;
-  margin: 20px 250px;
-}
-
-/* Banner css */
-
-.banner {
-  height: 300px;
-  width: 100%;
-  left: 0;
+  background-color: #ffffff;
+  z-index: 2000;
 }
 
 /* Overwriting H1 properties */
 
-h1 {
+header>h1 {
   text-align: center;
   margin-top: 20px;
   font-family: roboto;
   font-size: 35px;
-}
-
-/* Welcome msg for users */
-
-.welcomemsg {
-  text-align: center;
-  color: #ffffff;
 }
 
 /* Specific Css for image */
@@ -83,266 +33,208 @@ header>img {
   float: left;
 }
 
-/* List items css */
-
 ul>li {
-  display: inline;
+  float: right;
+  padding: 5px;
+  margin: 5px 10px;
+}
+
+ul>li>a {
   text-decoration: none;
-  color: #ffffff;
-  font-size: 1em;
-  font-style: bold;
-  flex-direction: row;
-  left: 0;
-  padding: 5px 30px 5px 30px;
-}
-
-/* anchor tag css */
-
-a {
-  text-decoration: none;
-}
-
-/* css for images */
-
-.img {
-  height: 200px;
-  width: 200px;
-  padding: 10px;
-  margin: 10px;
-  position: relative;
-}
-
-/* give hover properties to images */
-
-.img:hover {
-  opacity: 0.5;
-}
-
-/* giving details to the products */
-
-.details {
+  color: #000000;
   text-align: center;
   font-family: roboto;
-  font-style: italic;
-  padding-left: 5px;
-  margin: auto;
+  font-size: 20px;
+  font-weight: bold;
 }
-
-/* Footer css */
 
 footer {
-  text-align: center;
-  width: 100%;
-  margin-bottom: 0;
-  position: fixed;
-  background: linear-gradient(-90deg, #ffffff, #696969);
-  left: 0;
+  position: sticky;
   bottom: 0;
-  height: 50px;
-}
-
-/* List items */
-
-.list {
-  margin: auto;
-  padding: 10px;
-}
-
-.list>ul>li {
-  padding-bottom: 5px;
-}
-
-/* hover properties to anchor tags */
-
-a:hover {
-  color: #000000;
-}
-
-/* hero-unit css */
-
-.hero-text {
+  margin-bottom: 0;
   text-align: center;
-  background: url("../images/ba.jpg") no-repeat;
-  background-size: cover;
-  height: 400px;
-  color: #000000;
-  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 50px;
+  clear: both;
+  left: 0;
 }
 
-/* heading for hero unit */
-
-.hero-text h1 {
-  position: absolute;
-  top: 100px;
-  left: 650px;
-  color: #e6e6fa;
-}
-
-/* para css for hero unit */
-
-.hero-text p {
-  position: absolute;
-  top: 200px;
-  left: 650px;
-  padding-right: 50px;
-  color: #e6e6fa;
-}
-
-/* visited anchor tag css */
-
-a:visited {
-  color: #ffffff;
+.about {
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+  margin: 40px;
 }
 
 .sect {
+  height: 400px;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.susie_story, .cake_difference {
+  width: 100%;
+}
+
+.susie_story_para {
+  width: 100%;
+  overflow: hidden;
+  vertical-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #6c3f21;
+  background-color: #fff;
+  padding-bottom: 15px;
+}
+
+.susie_img_div {
+  width: 50%;
+}
+
+.susie_story_div {
+  margin-top: 10px;
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  width: 100%;
+}
+
+.susie_story_div_para {
+  width: 50%;
+}
+
+.susie_img {
+  margin-right: 0;
+  width: 100%;
+}
+
+.row:before {
+  content: " ";
+  display: table;
   clear: both;
-  margin: 50px 250px;
 }
 
-/* listed items css */
-
-.main {
-  list-style: none;
-  float: left;
-  padding: 20px;
-  width: 100px;
+.band {
+  height: 100px;
 }
 
-.main a {
-  text-decoration: none;
-  font-size: 20px;
-}
-
-.l1 {
-  background-color: #585858;
-  height: 30px;
-  font-size: 5px;
-}
-
-.l2 {
-  background-color: #606060;
-  height: 30px;
-  font-size: 5px;
-}
-
-.l3 {
-  background-color: #686868;
-  height: 30px;
-  font-size: 5px;
-}
-
-.l4 {
-  background-color: #696969;
-  height: 30px;
-  font-size: 5px;
-}
-
-.l5 {
-  background-color: #707070;
-  height: 30px;
-  font-size: 5px;
-}
-
-/* form css for order page */
-
-.order {
-  text-align: center;
-  font-family: roboto;
-  font-size: 20px;
-  margin: 100px 175px;
-  top: 20px;
-}
-
-form {
-  margin-top: 200px;
-  bottom: 0;
-}
-
-table {
-  margin: 30px 500px;
-}
-
-table>tr>td {
-  padding: 5px;
-}
-
-/* testimony and featured story css */
-
-.f_stry {
-  height: 350px;
-  width: 100%;
-}
-
-.signature {
-  font-family: cursive;
-  font-weight: bold;
-  padding: 5px;
-  color: #8b4513;
-  margin: 5px 10px 5px 20px;
-  width: 100%;
+.red-link {
+  color: #ff485b;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: underline;
   display: block;
+  margin-bottom: 26px;
+  cursor: pointer;
 }
 
-.signature>a {
-  color: #8b4513;
-}
-
-h4 {
-  color: #8b4513;
-  font-weight: bold;
-  font-size: 40px;
-  padding: 10px;
-}
-
-.featured_story {
-  font-family: cursive;
-  color: #8b4513;
-  width: 100%;
+.contact {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 10px;
+}
+
+.blue-link {
+  color: #87e1d8;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.contact-img {
+  width: 100%;
+}
+
+.modal-footer {
+  background-color: #f3eee8;
+  display: inline;
+  color: #e24164;
+  text-align: center;
+}
+
+.social {
+  line-height: 3vw;
+  font-size: 1.5vw;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.social-icons {
+  padding: 10px 20px;
+  width: 50%;
+  margin-left: 30px;
+  /* float: left; */
+}
+
+.Menu {
+  background-color: #87e1d8;
+  margin-top: 100px;
+  text-align: center;
+  width: 100%;
+  height: 120px;
+  top: 50%;
+  left: 50%;
+}
+
+div>h1 {
+  text-align: center;
+  font-size: 50px;
+  padding: 35px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.menu-item {
+  font-size: 70px;
+  text-align: center;
+  color: #87e1d8;
+}
+
+.menu-item:hover {
+  opacity: 0.5;
+}
+
+div>i {
+  padding: 10px;
+  margin: 10px;
+}
+
+.menu-list, .menu-list-img {
+  margin: 15px;
+  height: 300px;
+  cursor: pointer;
+}
+
+.menu-list {
+  width: 30%;
+}
+
+.menu-list-img {
+  width: 98%;
   padding: 10px;
 }
 
-.testimony {
-  margin-bottom: 100px;
+.menu-list:hover {
+  opacity: 0.5;
 }
 
-/*hovering menu items*/
-
-.main:hover {
-  text-shadow: 1px 1px 2px #000000;
-}
-
-.main a:hover {
-  color: #ffffff;
-}
-
-/*styling dropdown list*/
-
-.sub {
-  display: none;
-  padding-top: 25px;
-  width: auto;
-  margin-left: -20px;
-  font-size: 2px;
-}
-
-.sub li {
-  list-style: none;
-  font-size: 5px;
+.faq {
+  text-align: center;
   padding: 10px;
+  line-height: 10px;
+  font-weight: bold;
 }
 
-.sub li a {
-  text-decoration: none;
-}
-
-.main:hover .sub {
-  display: block;
-}
-
-/* styling each group of sublist*/
-
-.slist1 .slist2 .slist3 .slist4 {
-  background-color: #ffffff;
-  font-size: 5px;
+.location-button {
+  background-color: #ff485b;
+  color: #fff;
+  font-size: 14px;
+  padding: 12px 16px;
+  margin-left: 3px;
+  margin-bottom: 5px;
 }
